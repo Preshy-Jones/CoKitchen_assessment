@@ -14,7 +14,7 @@ class Api {
 
     const instance = axios.create({
       baseURL,
-      withCredentials: false,
+      withCredentials: true,
       headers: {
         Accept: "*/*",
         "Content-Type": "application/json",

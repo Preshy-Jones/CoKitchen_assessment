@@ -879,14 +879,14 @@ export const getRecords = createAsyncThunk(
   async (payload, thunkAPI) => {
     console.log(payload);
     try {
-      // return await fileService.fetchRecords();
+      return await fileService.fetchRecords();
       //simulate async call of 4 seconds
-      const dummyResponse = await new Promise<Record[]>((resolve) => {
-        setTimeout(() => {
-          resolve(dummyRecords);
-        }, 4000);
-      });
-      return dummyResponse;
+      // const dummyResponse = await new Promise<Record[]>((resolve) => {
+      //   setTimeout(() => {
+      //     resolve(dummyRecords);
+      //   }, 4000);
+      // });
+      // return dummyResponse;
     } catch (error) {
       return thunkAPI.rejectWithValue("something went wrong");
     }

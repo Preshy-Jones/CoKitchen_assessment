@@ -10,11 +10,11 @@ const ExcelIcon = ({ className }: { className?: string }) => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle cx="17.5" cy="17.5" r="17.5" fill="#EBFAF3" />
-      <g clip-path="url(#clip0_1_2046)">
+      <g clipPath="url(#clip0_1_2046)">
         <g filter="url(#filter0_ii_1_2046)">
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M12.221 9.08334C11.5951 9.08334 11.0876 9.59075 11.0876 10.2167V23.7833C11.0876 24.4093 11.5951 24.9167 12.221 24.9167H22.7793C23.4052 24.9167 23.9126 24.4093 23.9126 23.7833L23.9126 13.0417L19.9543 9.08334H12.221Z"
             fill="#32BD7A"
           />
@@ -42,9 +42,9 @@ const ExcelIcon = ({ className }: { className?: string }) => {
           width="12.825"
           height="15.975"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -95,9 +95,9 @@ const ExcelIcon = ({ className }: { className?: string }) => {
           width="14.2449"
           height="16.9375"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -148,7 +148,7 @@ const ExcelIcon = ({ className }: { className?: string }) => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stop-opacity="0.2" />
-          <stop offset="1" stop-opacity="0" />
+          <stop offset="1" stopOpacity="0" />
         </linearGradient>
         <clipPath id="clip0_1_2046">
           <rect

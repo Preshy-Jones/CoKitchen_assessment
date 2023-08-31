@@ -15,6 +15,11 @@ class Api {
     const instance = axios.create({
       baseURL,
       withCredentials: false,
+      headers: {
+        Accept: "*/*",
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
     });
 
     instance.interceptors.request.use(

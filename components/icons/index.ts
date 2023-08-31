@@ -7,3 +7,4 @@ export { default as PdfIcon } from "./pdf";
 export { default as FavouriteIcon } from "./favourite";
 export { default as DownloadIcon } from "./download";
 export { default as PrintIcon } from "./print";
+export { default as CancelIcon } from "./cancel";

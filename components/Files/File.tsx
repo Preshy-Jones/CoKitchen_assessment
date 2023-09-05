@@ -28,7 +28,26 @@ const File = ({ record }: { record: Record }) => {
   const handleDownload = () => {
     const url = record?.src;
     const fileName = record?.name;
-    saveAs("https://httpbin.org/image", "image.jpg");
+
+    console.log("url", url);
+
+    saveAs(url, fileName);
+    // fetch(url, {
+    //   method: "GET",
+    //   headers: {
+    //     "Content-Type": "application/pdf",
+    //   },
+    //   mode: "no-cors",
+    // })
+    //   .then((res) => res.blob())
+    //   .then((blob) => {
+    //     const fileURL = window.URL.createObjectURL(blob);
+    //     // Setting various property values
+    //     let alink = document.createElement("a");
+    //     alink.href = fileURL;
+    //     alink.download = fileName;
+    //     alink.click();
+    //   });
   };
   const dummyImageUrl =
     "https://cdn.pixabay.com/photo/2023/07/24/01/31/plane-8145957_1280.jpg";
